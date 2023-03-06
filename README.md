@@ -8,9 +8,9 @@
     - Id;
     - FirstName;
     - LastName;
-    - HeroName;**
-- ** database - SqlServer. **
--** Can Post, GetAll, GetById, Put, Delete**
+    - HeroName;
+- ** database - SqlServer.
+- ** Can Post, GetAll, GetById, Put, Delete**
  
 
 ## Technologies
