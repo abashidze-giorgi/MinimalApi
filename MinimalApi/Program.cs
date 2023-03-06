@@ -22,7 +22,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-async Task<List<SuperHero>> GetAllHeroes(DataContext context) => 
+static async Task<List<SuperHero>> GetAllHeroes(DataContext context) => 
     await context.SuperHeroes.ToListAsync();
 
 app.MapGet("/FirstPage", () => "Welcome to WebApiDB!");
